@@ -2,8 +2,8 @@ language: node_js
 node_js:
   - 8
 scripts:
-  - npm install codecov -g
+  - npm install -g codecov
   - npm test
   - npm run build
 after_success:
-  - codecov
+  - npm run codecov

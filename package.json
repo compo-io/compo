@@ -1,12 +1,12 @@
 {
   "name": "@compo/compo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compo core library",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "nyc --require ts-node/register mocha ./dist/**/*.test.js",
-    "codecov": "codecov"
+    "posttest": "nyc report --reporter=json && codecov -f coverage/*.json"
   },
   "repository": {
     "type": "git",

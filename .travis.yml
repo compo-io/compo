@@ -9,8 +9,7 @@ after_success:
 deploy:
   provider: npm
   email: even.simon@gmail.com
-  tag: latest
   api_key:
     secure: wTTCCLiHg+wxfRz1H7WpRwTtZkPPpFOaBTKs0UErTDEUiyssRhiTHqOhVbHzqB50UCguUeA7mUGIXZ24bAcFnwAhSw1x2VOKaMbtMivAnJA7j4I8cZyuoU+imUCGVuMstm3AJ1H8K0nJWyENKPt7T1yxxCEX0mq961iYrmrsxIeMwd2Cb9jPz/8N816xVS4ucmciQzkmkXUL0NUr9MAw8n+hZA2+S2cYYnSGTVhp1/3b5Y1ZAjfrbo2V6mXC+1CJbr6EQLJR9lJlxE4Ciz3/sjuPEIs5qdVwbDWd+QRH0+0LFoRku7rvL5pRifhnHh1Rh8k3psdTuqjm8T11xU81YMQ5pr6yvkEsbCj8AEXNAAU8preK6WHH/YTNy3ATUvKT4Qy8VXpIM2ZdpLbr6RV7VsLcr6rUWhslFy5sq6NVeVxlV8WGxqhyihTbVpjBLBxT80t91m8SoRD9TQvmvVdz75I0RYus76jf3tFL/uCKU5ZHFQ81OvPDMEZfnz0ARAgQOJwOOYUvPUjPzRpcXJ7TlIUoqonqoQv2twtxixmYWVhKwT4+qce3HkliXKZ/DDb7XS6qaynuzeodJxlYkuee8Jg4gS95FuvtUHU+5rK5x3LiDvXY47H/65ZSqxYn1v/5gMyzKonr7f/HUTsZJ76KTAXjxIpyZ8SyiWnHmnFrtTA=
   on:
-    branch: master
+    tags: true

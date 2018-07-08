@@ -13,11 +13,11 @@
     "url": "git+https://github.com/compo-io/compo.git"
   },
   "files": [
-    "dist/**/*.js"
+    "./dist/**/*.js"
   ],
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/compo-io/compo/issues"
   },

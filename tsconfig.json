@@ -3,16 +3,22 @@
     "noImplicitAny": true,
     "module": "commonjs",
     "target": "es6",
-    "allowJs": true,
     "moduleResolution": "node",
-    "removeComments": true,
+    "removeComments": false,
+    "declaration": true,
     "outDir": "dist"
   },
   "include": [
-    "lib/**/*.ts"
+    "./lib/index.ts"
   ],
   "exclude": [
     "dist",
     "node_modules"
-  ]
+  ],
+  "typeAcquisition": {
+    "enable": true,
+    "include": [
+      "./lib/**/*.ts"
+    ]
+  }
 }

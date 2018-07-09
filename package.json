@@ -1,8 +1,9 @@
 {
   "name": "@compo/compo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Compo core library",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "nyc --require ts-node/register mocha ./dist/**/*.test.js",
@@ -35,6 +36,7 @@
     "@types/webpack": "^4.4.5",
     "chai": "^4.1.2",
     "codecov": "^3.0.3",
+    "dts-gen": "^0.5.7",
     "mocha": "^5.2.0",
     "nyc": "^12.0.2",
     "ts-node": "^7.0.0",

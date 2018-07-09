@@ -1,6 +1,6 @@
 {
   "name": "@compo/compo",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Compo core library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,10 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/compo-io/compo.git"
   },
-  "files": [
-    "dist/*",
-    "!dist/*.test.js"
-  ],
   "keywords": [],
   "author": "",
   "license": "MIT",
